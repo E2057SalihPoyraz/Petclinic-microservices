@@ -6,6 +6,6 @@ filters:
   tag:environment: dev
   tag:swarm-role: manager
 hostnames:
-  - "172.31.77.2"
+  - "private-ip-address"
 compose:
   ansible_user: "'ec2-user'"
